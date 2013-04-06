@@ -1,5 +1,6 @@
 PyTraceGraph
 =============
+Forked from my buddy [Lineker] (https://github.com/lineker)
 
 Generate graphs from any trace files
 
