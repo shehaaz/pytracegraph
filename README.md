@@ -1,17 +1,26 @@
 PyTraceGraph
 =============
-Forked from my buddy [Lineker] (https://github.com/lineker)
-
-Dependencies:
-* python 2.7
-* pyparsing 1.5.7
-* pydot 1.0.28
-* graphwiz 2.30
 
 Generate graphs from any trace files
 
+# Requirements #
+	
+	* graphviz 
+	* pydot
+
+# Usage #
+
+**Generate only call graphs:**
+	
+`python pytracegraph.py -n nodes.txt -e edges.txt -p MyParser.simpleParser -w example3.png`
+
+**Generate reflexion model:**
+	
+`python pytracegraph.py -n nodes.txt -e edges.txt -p MyParser.simpleParser -w example3.png
+	 -r call_trace.txt -rp MyReflexionBuilder.simpleReflexionBuilder`
 
 PyTraceGraph Class Diagram
 -------
 
-<img src="http://tomazeli.net/images/pytracegraph_arch.png" />
+![PyTraceGraph Class Diagram](http://tomazeli.net/images/pytracegraph_arch.png "Class Diagram")
+
