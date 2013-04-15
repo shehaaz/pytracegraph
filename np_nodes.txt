@@ -1,0 +1,7 @@
+NPController::Controller (.*)/src/(notepad_plus|npp)(.*).cpp
+ScintillaComponent::Library (.*)/src/scitillacomponent/(.*).cpp
+WinControls::Window (.*)/src/WinControls/(.*)
+Localization::UserLanguage (.*)/src/localization.cpp
+MISC_Common::MISC (.*)/misc/common/(.*)
+MISC_PluginManager::MISC (.*)/misc/pluginsmanager/(.*)
+Tinyxml::XMLParser (.*)/src/tinyxml/(.*)

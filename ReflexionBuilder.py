@@ -26,7 +26,7 @@ class ReflexionBuilder:
 		notfound = True
 		if nodeSrc.myEdges.has_key(nodeDest.label):
 			edge = nodeSrc.myEdges[nodeDest.label]
-			if edge.type == 'dotted':
+			if edge.type == 'dotted' or edge.type == 'solid':
 				edge.type = 'solid'
 				notfound = False
 

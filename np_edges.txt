@@ -1,0 +1,11 @@
+NPController::Controller ScintillaComponent::Library
+NPController::Controller Localization::UserLanguage
+NPController::Controller MISC_Common::MISC
+Localization::UserLanguage MISC_Common::MISC
+MISC_PluginManager::MISC  MISC_Common::MISC
+ScintillaComponent::Library MISC_Common::MISC
+WinControls::Window MISC_Common::MISC
+NPController::Controller MISC_PluginManager::MISC 
+NPController::Controller WinControls::Window
+NPController::Controller Tinyxml::XMLParser
+Localization::UserLanguage Tinyxml::XMLParser
